@@ -1,0 +1,20 @@
+{
+  "name": "ctronic-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sproket",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fluent-ffmpeg": "^2.1.2",
+    "opusscript": "0.0.6",
+    "youtube-dl": "^1.12.2",
+    "ytdl-core": "^0.20.4"
+  }
+}
