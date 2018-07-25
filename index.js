@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const ytdl = require('ytdl-core');
 const bot = new Discord.Client();
-const token = 'NDcxMDA2NjMzOTAwNjM4MjE5.Djei_A.rYxzsSO3rYpknf0CIIFjHdtjOGI';
 const server_id = '443345054929518613';
 const spam_channel = '443345906671157249';
 const cmd_channel = '471008080096919573';
@@ -91,4 +90,4 @@ if(cmd === '!yt') {
             }
   });
 
-bot.login(token);
+bot.login(process.env.BOT_TOKEN);
